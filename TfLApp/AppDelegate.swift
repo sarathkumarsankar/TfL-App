@@ -9,9 +9,6 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewModel = TubeLineStatusViewModel(apiManager: APIManager())
         let navigationController = UINavigationController()
         navigationController.view.backgroundColor = .white
-        navigationController.navigationBar.prefersLargeTitles = true
-        navigationController.navigationBar.barTintColor = .white
-        navigationController.navigationBar.isTranslucent = false
         navigationController.viewControllers = [TubeLineStatusViewController(viewModel: viewModel)]
         window!.rootViewController = navigationController
         window!.makeKeyAndVisible()

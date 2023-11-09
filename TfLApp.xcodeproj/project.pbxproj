@@ -8,18 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		653E3D1A2AFC3DA000B6EC72 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D192AFC3DA000B6EC72 /* UIColor+CustomColors.swift */; };
-		653E3D1C2AFCBEB000B6EC72 /* TubeLineStatusViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D1B2AFCBEB000B6EC72 /* TubeLineStatusViewModelTests.swift */; };
-		653E3D1E2AFCBF6900B6EC72 /* TubeLineModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D1D2AFCBF6900B6EC72 /* TubeLineModelTests.swift */; };
-		653E3D202AFCCA8800B6EC72 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D1F2AFCCA8800B6EC72 /* MockAPIManager.swift */; };
-		653E3D232AFCCEBC00B6EC72 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D1F2AFCCA8800B6EC72 /* MockAPIManager.swift */; };
 		653E3D252AFCE08500B6EC72 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D242AFCE08500B6EC72 /* CommonUtils.swift */; };
 		653E3D282AFCE0CF00B6EC72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653E3D272AFCE0CF00B6EC72 /* Localizable.strings */; };
+		653E3D422AFD19A500B6EC72 /* TubeLineModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D402AFD19A400B6EC72 /* TubeLineModelTests.swift */; };
+		653E3D432AFD19A500B6EC72 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D412AFD19A400B6EC72 /* MockAPIManager.swift */; };
+		653E3D452AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D442AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift */; };
+		653E3D4D2AFD19D100B6EC72 /* TfLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */; };
+		653E3D4F2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */; };
+		653E3D562AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */; };
+		653E3D582AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */; };
+		653E3D5B2AFD355F00B6EC72 /* AllLineStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D592AFD355F00B6EC72 /* AllLineStatusCell.swift */; };
+		653E3D5C2AFD355F00B6EC72 /* AllLineStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653E3D5A2AFD355F00B6EC72 /* AllLineStatusCell.xib */; };
+		653E3D5F2AFD3F6D00B6EC72 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 653E3D5E2AFD3F6D00B6EC72 /* Poppins-Regular.ttf */; };
+		653E3D612AFD3F8D00B6EC72 /* UIFont+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D602AFD3F8D00B6EC72 /* UIFont+Extenstion.swift */; };
+		653E3D632AFD3FDA00B6EC72 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 653E3D622AFD3FDA00B6EC72 /* Poppins-SemiBold.ttf */; };
 		6561B4B52AFAD85600D70FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4B42AFAD85600D70FB5 /* AppDelegate.swift */; };
 		6561B4BE2AFAD85700D70FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6561B4BD2AFAD85700D70FB5 /* Assets.xcassets */; };
 		6561B4C12AFAD85700D70FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6561B4BF2AFAD85700D70FB5 /* LaunchScreen.storyboard */; };
-		6561B4CC2AFAD85700D70FB5 /* TfLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4CB2AFAD85700D70FB5 /* TfLAppTests.swift */; };
-		6561B4D62AFAD85700D70FB5 /* TfLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4D52AFAD85700D70FB5 /* TfLAppUITests.swift */; };
-		6561B4D82AFAD85700D70FB5 /* TfLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4D72AFAD85700D70FB5 /* TfLAppUITestsLaunchTests.swift */; };
 		6561B4E72AFAD8DE00D70FB5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4E52AFAD8DE00D70FB5 /* APIManager.swift */; };
 		6561B4E82AFAD8DE00D70FB5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4E62AFAD8DE00D70FB5 /* Request.swift */; };
 		6561B4EB2AFADEA200D70FB5 /* TubeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4EA2AFADEA200D70FB5 /* TubeLine.swift */; };
@@ -36,14 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6561B4C82AFAD85700D70FB5 /* PBXContainerItemProxy */ = {
+		653E3D3B2AFD197F00B6EC72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6561B4A92AFAD85600D70FB5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6561B4B02AFAD85600D70FB5;
 			remoteInfo = TfLApp;
 		};
-		6561B4D22AFAD85700D70FB5 /* PBXContainerItemProxy */ = {
+		653E3D502AFD19D100B6EC72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6561B4A92AFAD85600D70FB5 /* Project object */;
 			proxyType = 1;
@@ -54,21 +59,27 @@
 
 /* Begin PBXFileReference section */
 		653E3D192AFC3DA000B6EC72 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
-		653E3D1B2AFCBEB000B6EC72 /* TubeLineStatusViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModelTests.swift; sourceTree = "<group>"; };
-		653E3D1D2AFCBF6900B6EC72 /* TubeLineModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineModelTests.swift; sourceTree = "<group>"; };
-		653E3D1F2AFCCA8800B6EC72 /* MockAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
 		653E3D242AFCE08500B6EC72 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		653E3D272AFCE0CF00B6EC72 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		653E3D372AFD197F00B6EC72 /* TfLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E3D402AFD19A400B6EC72 /* TubeLineModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TubeLineModelTests.swift; sourceTree = "<group>"; };
+		653E3D412AFD19A400B6EC72 /* MockAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
+		653E3D442AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModelTests.swift; sourceTree = "<group>"; };
+		653E3D4A2AFD19D000B6EC72 /* TfLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITests.swift; sourceTree = "<group>"; };
+		653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewControllerUITests.swift; sourceTree = "<group>"; };
+		653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusCellUITests.swift; sourceTree = "<group>"; };
+		653E3D592AFD355F00B6EC72 /* AllLineStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLineStatusCell.swift; sourceTree = "<group>"; };
+		653E3D5A2AFD355F00B6EC72 /* AllLineStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllLineStatusCell.xib; sourceTree = "<group>"; };
+		653E3D5E2AFD3F6D00B6EC72 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		653E3D602AFD3F8D00B6EC72 /* UIFont+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extenstion.swift"; sourceTree = "<group>"; };
+		653E3D622AFD3FDA00B6EC72 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		6561B4B12AFAD85600D70FB5 /* TfLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6561B4B42AFAD85600D70FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6561B4BD2AFAD85700D70FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6561B4C02AFAD85700D70FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6561B4C22AFAD85700D70FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6561B4C72AFAD85700D70FB5 /* TfLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6561B4CB2AFAD85700D70FB5 /* TfLAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppTests.swift; sourceTree = "<group>"; };
-		6561B4D12AFAD85700D70FB5 /* TfLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6561B4D52AFAD85700D70FB5 /* TfLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITests.swift; sourceTree = "<group>"; };
-		6561B4D72AFAD85700D70FB5 /* TfLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6561B4E52AFAD8DE00D70FB5 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		6561B4E62AFAD8DE00D70FB5 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		6561B4EA2AFADEA200D70FB5 /* TubeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLine.swift; sourceTree = "<group>"; };
@@ -85,21 +96,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		653E3D342AFD197F00B6EC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E3D472AFD19D000B6EC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6561B4AE2AFAD85600D70FB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6561B4C42AFAD85700D70FB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6561B4CE2AFAD85700D70FB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,6 +154,8 @@
 			children = (
 				6561B5102AFC0B3200D70FB5 /* TubeLineStatusCell.swift */,
 				6561B5172AFC0D7F00D70FB5 /* TubeLineStatusCell.xib */,
+				653E3D592AFD355F00B6EC72 /* AllLineStatusCell.swift */,
+				653E3D5A2AFD355F00B6EC72 /* AllLineStatusCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -167,9 +180,30 @@
 		653E3D2E2AFD09B100B6EC72 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				653E3D5D2AFD3F5A00B6EC72 /* Fonts */,
 				6561B4EC2AFAE15000D70FB5 /* Config.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		653E3D4B2AFD19D100B6EC72 /* TfLAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */,
+				653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */,
+				653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */,
+				653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */,
+			);
+			path = TfLAppUITests;
+			sourceTree = "<group>";
+		};
+		653E3D5D2AFD3F5A00B6EC72 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				653E3D622AFD3FDA00B6EC72 /* Poppins-SemiBold.ttf */,
+				653E3D5E2AFD3F6D00B6EC72 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		6561B4A82AFAD85600D70FB5 = {
@@ -177,7 +211,7 @@
 			children = (
 				6561B4B32AFAD85600D70FB5 /* TfLApp */,
 				6561B4CA2AFAD85700D70FB5 /* TfLAppTests */,
-				6561B4D42AFAD85700D70FB5 /* TfLAppUITests */,
+				653E3D4B2AFD19D100B6EC72 /* TfLAppUITests */,
 				6561B4B22AFAD85600D70FB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,8 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				6561B4B12AFAD85600D70FB5 /* TfLApp.app */,
-				6561B4C72AFAD85700D70FB5 /* TfLAppTests.xctest */,
-				6561B4D12AFAD85700D70FB5 /* TfLAppUITests.xctest */,
+				653E3D372AFD197F00B6EC72 /* TfLAppTests.xctest */,
+				653E3D4A2AFD19D000B6EC72 /* TfLAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,21 +245,11 @@
 		6561B4CA2AFAD85700D70FB5 /* TfLAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				6561B4CB2AFAD85700D70FB5 /* TfLAppTests.swift */,
-				653E3D1B2AFCBEB000B6EC72 /* TubeLineStatusViewModelTests.swift */,
-				653E3D1D2AFCBF6900B6EC72 /* TubeLineModelTests.swift */,
-				653E3D1F2AFCCA8800B6EC72 /* MockAPIManager.swift */,
+				653E3D442AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift */,
+				653E3D412AFD19A400B6EC72 /* MockAPIManager.swift */,
+				653E3D402AFD19A400B6EC72 /* TubeLineModelTests.swift */,
 			);
 			path = TfLAppTests;
-			sourceTree = "<group>";
-		};
-		6561B4D42AFAD85700D70FB5 /* TfLAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6561B4D52AFAD85700D70FB5 /* TfLAppUITests.swift */,
-				6561B4D72AFAD85700D70FB5 /* TfLAppUITestsLaunchTests.swift */,
-			);
-			path = TfLAppUITests;
 			sourceTree = "<group>";
 		};
 		6561B4E42AFAD8C300D70FB5 /* Services */ = {
@@ -252,6 +276,7 @@
 				6561B5062AFBF44800D70FB5 /* UITableViewCell+Extension.swift */,
 				6561B5052AFBF44800D70FB5 /* UIView+Extension.swift */,
 				653E3D192AFC3DA000B6EC72 /* UIColor+CustomColors.swift */,
+				653E3D602AFD3F8D00B6EC72 /* UIFont+Extenstion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,6 +284,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		653E3D362AFD197F00B6EC72 /* TfLAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E3D3D2AFD197F00B6EC72 /* Build configuration list for PBXNativeTarget "TfLAppTests" */;
+			buildPhases = (
+				653E3D332AFD197F00B6EC72 /* Sources */,
+				653E3D342AFD197F00B6EC72 /* Frameworks */,
+				653E3D352AFD197F00B6EC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653E3D3C2AFD197F00B6EC72 /* PBXTargetDependency */,
+			);
+			name = TfLAppTests;
+			productName = TfLAppTests;
+			productReference = 653E3D372AFD197F00B6EC72 /* TfLAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		653E3D492AFD19D000B6EC72 /* TfLAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E3D522AFD19D100B6EC72 /* Build configuration list for PBXNativeTarget "TfLAppUITests" */;
+			buildPhases = (
+				653E3D462AFD19D000B6EC72 /* Sources */,
+				653E3D472AFD19D000B6EC72 /* Frameworks */,
+				653E3D482AFD19D000B6EC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653E3D512AFD19D100B6EC72 /* PBXTargetDependency */,
+			);
+			name = TfLAppUITests;
+			productName = TfLAppUITests;
+			productReference = 653E3D4A2AFD19D000B6EC72 /* TfLAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6561B4B02AFAD85600D70FB5 /* TfLApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6561B4DB2AFAD85700D70FB5 /* Build configuration list for PBXNativeTarget "TfLApp" */;
@@ -276,42 +337,6 @@
 			productReference = 6561B4B12AFAD85600D70FB5 /* TfLApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6561B4C62AFAD85700D70FB5 /* TfLAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6561B4DE2AFAD85700D70FB5 /* Build configuration list for PBXNativeTarget "TfLAppTests" */;
-			buildPhases = (
-				6561B4C32AFAD85700D70FB5 /* Sources */,
-				6561B4C42AFAD85700D70FB5 /* Frameworks */,
-				6561B4C52AFAD85700D70FB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6561B4C92AFAD85700D70FB5 /* PBXTargetDependency */,
-			);
-			name = TfLAppTests;
-			productName = TfLAppTests;
-			productReference = 6561B4C72AFAD85700D70FB5 /* TfLAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6561B4D02AFAD85700D70FB5 /* TfLAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6561B4E12AFAD85700D70FB5 /* Build configuration list for PBXNativeTarget "TfLAppUITests" */;
-			buildPhases = (
-				6561B4CD2AFAD85700D70FB5 /* Sources */,
-				6561B4CE2AFAD85700D70FB5 /* Frameworks */,
-				6561B4CF2AFAD85700D70FB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6561B4D32AFAD85700D70FB5 /* PBXTargetDependency */,
-			);
-			name = TfLAppUITests;
-			productName = TfLAppUITests;
-			productReference = 6561B4D12AFAD85700D70FB5 /* TfLAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,16 +347,16 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					653E3D362AFD197F00B6EC72 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6561B4B02AFAD85600D70FB5;
+					};
+					653E3D492AFD19D000B6EC72 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6561B4B02AFAD85600D70FB5;
+					};
 					6561B4B02AFAD85600D70FB5 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					6561B4C62AFAD85700D70FB5 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 6561B4B02AFAD85600D70FB5;
-					};
-					6561B4D02AFAD85700D70FB5 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 6561B4B02AFAD85600D70FB5;
 					};
 				};
 			};
@@ -349,42 +374,66 @@
 			projectRoot = "";
 			targets = (
 				6561B4B02AFAD85600D70FB5 /* TfLApp */,
-				6561B4C62AFAD85700D70FB5 /* TfLAppTests */,
-				6561B4D02AFAD85700D70FB5 /* TfLAppUITests */,
+				653E3D362AFD197F00B6EC72 /* TfLAppTests */,
+				653E3D492AFD19D000B6EC72 /* TfLAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		653E3D352AFD197F00B6EC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E3D482AFD19D000B6EC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6561B4AF2AFAD85600D70FB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653E3D5C2AFD355F00B6EC72 /* AllLineStatusCell.xib in Resources */,
 				653E3D282AFCE0CF00B6EC72 /* Localizable.strings in Resources */,
+				653E3D5F2AFD3F6D00B6EC72 /* Poppins-Regular.ttf in Resources */,
 				6561B4ED2AFAE15000D70FB5 /* Config.plist in Resources */,
 				6561B5192AFC0D7F00D70FB5 /* TubeLineStatusCell.xib in Resources */,
+				653E3D632AFD3FDA00B6EC72 /* Poppins-SemiBold.ttf in Resources */,
 				6561B4C12AFAD85700D70FB5 /* LaunchScreen.storyboard in Resources */,
 				6561B4BE2AFAD85700D70FB5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6561B4C52AFAD85700D70FB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6561B4CF2AFAD85700D70FB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		653E3D332AFD197F00B6EC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E3D452AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift in Sources */,
+				653E3D422AFD19A500B6EC72 /* TubeLineModelTests.swift in Sources */,
+				653E3D432AFD19A500B6EC72 /* MockAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E3D462AFD19D000B6EC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E3D562AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift in Sources */,
+				653E3D4D2AFD19D100B6EC72 /* TfLAppUITests.swift in Sources */,
+				653E3D4F2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift in Sources */,
+				653E3D582AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6561B4AD2AFAD85600D70FB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +441,7 @@
 				6561B5122AFC0B3200D70FB5 /* TubeLineStatusCell.swift in Sources */,
 				653E3D252AFCE08500B6EC72 /* CommonUtils.swift in Sources */,
 				653E3D1A2AFC3DA000B6EC72 /* UIColor+CustomColors.swift in Sources */,
+				653E3D612AFD3F8D00B6EC72 /* UIFont+Extenstion.swift in Sources */,
 				6561B5082AFBF44800D70FB5 /* UIView+Extension.swift in Sources */,
 				6561B4F22AFAE9C900D70FB5 /* TubeLineStatusViewModel.swift in Sources */,
 				6561B5072AFBF44800D70FB5 /* Strings.swift in Sources */,
@@ -399,6 +449,7 @@
 				6561B4F42AFAECFD00D70FB5 /* TubeLineStatusViewController.swift in Sources */,
 				6561B4E82AFAD8DE00D70FB5 /* Request.swift in Sources */,
 				6561B4EF2AFAE31500D70FB5 /* ConfigurationManager.swift in Sources */,
+				653E3D5B2AFD355F00B6EC72 /* AllLineStatusCell.swift in Sources */,
 				6561B5092AFBF44800D70FB5 /* UITableViewCell+Extension.swift in Sources */,
 				6561B4EB2AFADEA200D70FB5 /* TubeLine.swift in Sources */,
 				6561B50F2AFC07F200D70FB5 /* LoadingViewController.swift in Sources */,
@@ -406,39 +457,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6561B4C32AFAD85700D70FB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				653E3D1C2AFCBEB000B6EC72 /* TubeLineStatusViewModelTests.swift in Sources */,
-				6561B4CC2AFAD85700D70FB5 /* TfLAppTests.swift in Sources */,
-				653E3D202AFCCA8800B6EC72 /* MockAPIManager.swift in Sources */,
-				653E3D1E2AFCBF6900B6EC72 /* TubeLineModelTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6561B4CD2AFAD85700D70FB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6561B4D62AFAD85700D70FB5 /* TfLAppUITests.swift in Sources */,
-				653E3D232AFCCEBC00B6EC72 /* MockAPIManager.swift in Sources */,
-				6561B4D82AFAD85700D70FB5 /* TfLAppUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6561B4C92AFAD85700D70FB5 /* PBXTargetDependency */ = {
+		653E3D3C2AFD197F00B6EC72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6561B4B02AFAD85600D70FB5 /* TfLApp */;
-			targetProxy = 6561B4C82AFAD85700D70FB5 /* PBXContainerItemProxy */;
+			targetProxy = 653E3D3B2AFD197F00B6EC72 /* PBXContainerItemProxy */;
 		};
-		6561B4D32AFAD85700D70FB5 /* PBXTargetDependency */ = {
+		653E3D512AFD19D100B6EC72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6561B4B02AFAD85600D70FB5 /* TfLApp */;
-			targetProxy = 6561B4D22AFAD85700D70FB5 /* PBXContainerItemProxy */;
+			targetProxy = 653E3D502AFD19D100B6EC72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,6 +484,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		653E3D3E2AFD197F00B6EC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC3ED22LSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLApp";
+			};
+			name = Debug;
+		};
+		653E3D3F2AFD197F00B6EC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC3ED22LSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLApp";
+			};
+			name = Release;
+		};
+		653E3D532AFD19D100B6EC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC3ED22LSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TfLApp;
+			};
+			name = Debug;
+		};
+		653E3D542AFD19D100B6EC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC3ED22LSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TfLApp;
+			};
+			name = Release;
+		};
 		6561B4D92AFAD85700D70FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -630,87 +730,27 @@
 			};
 			name = Release;
 		};
-		6561B4DF2AFAD85700D70FB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TC3ED22LSV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLApp";
-			};
-			name = Debug;
-		};
-		6561B4E02AFAD85700D70FB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TC3ED22LSV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLApp";
-			};
-			name = Release;
-		};
-		6561B4E22AFAD85700D70FB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TC3ED22LSV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TfLApp;
-			};
-			name = Debug;
-		};
-		6561B4E32AFAD85700D70FB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TC3ED22LSV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarath.TfLAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TfLApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		653E3D3D2AFD197F00B6EC72 /* Build configuration list for PBXNativeTarget "TfLAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E3D3E2AFD197F00B6EC72 /* Debug */,
+				653E3D3F2AFD197F00B6EC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653E3D522AFD19D100B6EC72 /* Build configuration list for PBXNativeTarget "TfLAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E3D532AFD19D100B6EC72 /* Debug */,
+				653E3D542AFD19D100B6EC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6561B4AC2AFAD85600D70FB5 /* Build configuration list for PBXProject "TfLApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -725,24 +765,6 @@
 			buildConfigurations = (
 				6561B4DC2AFAD85700D70FB5 /* Debug */,
 				6561B4DD2AFAD85700D70FB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6561B4DE2AFAD85700D70FB5 /* Build configuration list for PBXNativeTarget "TfLAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6561B4DF2AFAD85700D70FB5 /* Debug */,
-				6561B4E02AFAD85700D70FB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6561B4E12AFAD85700D70FB5 /* Build configuration list for PBXNativeTarget "TfLAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6561B4E22AFAD85700D70FB5 /* Debug */,
-				6561B4E32AFAD85700D70FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

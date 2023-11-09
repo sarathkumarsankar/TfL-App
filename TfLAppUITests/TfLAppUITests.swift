@@ -1,11 +1,5 @@
-//
-//  TfLAppUITests.swift
-//  TfLAppUITests
-//
-//  Created by sa20199164 on 07/11/2023.
-//
-
 import XCTest
+@testable import TfLApp
 
 final class TfLAppUITests: XCTestCase {
 

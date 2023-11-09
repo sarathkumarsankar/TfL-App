@@ -45,10 +45,8 @@ final class TubeLineStatusViewModel {
         apiManager.execute(TubeLine.status) { [weak self] result in
             switch result {
             case .success(let lines):
-                print(lines)
                 self?.state = .loaded(lines)
-            case .failure(let error):
-                print(error)
+            case .failure:
                 self?.state = .error
             }
         }
