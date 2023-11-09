@@ -1,0 +1,26 @@
+/**
+ *  Context: Title of the status screen
+ *  Max characters: 40
+ */
+"status.title" = "Status";
+
+/**
+ *  Context: Body of the error message shown when the status fail to load
+ *  Max characters: 150
+ */
+"status.load.error.title" = "Error";
+
+/**
+ *  Context: Body of the error message shown when the status fail to load
+ *  Max characters: 150
+ */
+"status.load.error.body" = "Oops,something went wrong. please try again later";
+/**
+ *  Context: Button on the status error alert
+ *  Max characters: 40
+ */
+"status.load.error.actionButton" = "Okay";
+
+
+
+

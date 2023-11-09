@@ -1,17 +1,26 @@
 
 import Foundation
 
-enum LineStatusViewModelState {
+enum LineStatusViewModelState: Equatable {
     case loading
     case loaded([TubeLine])
     case error
-
+    
     var lines: [TubeLine] {
         switch self {
         case .loaded(let lines):
             return lines
         case .loading, .error:
             return []
+        }
+    }
+
+    static func == (lhs: LineStatusViewModelState, rhs: LineStatusViewModelState) -> Bool {
+        switch (lhs, rhs) {
+        case (.error, .error):
+            return true
+        default:
+            return false
         }
     }
 }

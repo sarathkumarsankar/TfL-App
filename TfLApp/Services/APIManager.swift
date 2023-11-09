@@ -6,7 +6,7 @@ let jsonData = """
       {
         "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
         "id": "bakerloo",
-        "name": "Bakerloo",
+        "name": "BakerlooBakerlooBakerlooBakerlooBakerlooGood service",
         "modeName": "tube",
         "disruptions": [],
         "created": "2023-10-31T15:28:42.2Z",
@@ -427,14 +427,14 @@ final class APIManager: APIManaging {
     }
     
     func execute<Value: Decodable>(_ request: Request<Value>, completion: @escaping (Result<Value, APIError>) -> Void) {
-        print(Value.self)
-
         if let jsonData = jsonData {
             do {
                 let lines = try JSONDecoder().decode([TubeLine].self, from: jsonData)
-                print(lines)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                    completion(.success(lines as! Value))
+                }
             } catch {
-                print("Error: \(error)")
+                 completion(.failure(.networkError(description: "No response data received.")))
             }
         }
 //        urlSession.dataTask(with: urlRequest(for: request)) { responseData, response, error in
