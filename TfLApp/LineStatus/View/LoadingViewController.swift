@@ -8,12 +8,15 @@ final class LoadingViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .white
         activityIndicatorView = UIActivityIndicatorView(style: .medium)
+        // Set accessibility label for the activity indicator
+        activityIndicatorView.accessibilityLabel = "Loading"
         view.addSubview(activityIndicatorView)
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate(
             [
-                activityIndicatorView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
-                activityIndicatorView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor)
+                activityIndicatorView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                // Adjust the vertical placement of the indicator due to naviagation bar(offset of -64)
+                activityIndicatorView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -64)
             ]
         )
         self.view = view
@@ -29,6 +32,7 @@ final class LoadingViewController: UIViewController {
         activityIndicatorView.stopAnimating()
     }
     
+    // Function to show the loading view in a parent view controller
     func show(in parent: UIViewController) {
         parent.addChild(self)
         view.frame = parent.view.bounds
@@ -37,6 +41,7 @@ final class LoadingViewController: UIViewController {
         didMove(toParent: parent)
     }
     
+    // Function to hide the loading view
     func hide() {
         willMove(toParent: nil)
         view.removeFromSuperview()

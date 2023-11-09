@@ -5,7 +5,7 @@ extension UIFont {
     
     enum Heading {
         static var medium: UIFont = UIFont(name: "Poppins-SemiBold", size: 28) ?? UIFont.systemFont(ofSize: 28, weight: .semibold)
-        static let small: UIFont = UIFont(name: "Poppins-SemiBold", size: 22) ?? UIFont.systemFont(ofSize: 22, weight: .semibold)
+        static let small: UIFont = UIFont(name: "Poppins-SemiBold", size: 24) ?? UIFont.systemFont(ofSize: 22, weight: .semibold)
         static let regular: UIFont = UIFont(name: "Poppins-SemiBold", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: .semibold)
         static let xtraSmall: UIFont = UIFont(name: "Poppins-SemiBold", size: 18) ?? UIFont.systemFont(ofSize: 18, weight: .semibold)
     }

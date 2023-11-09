@@ -21,6 +21,8 @@
  */
 "status.load.error.actionButton" = "Okay";
 
+"status.title.live" = "Live";
 
+"status.accessabilty.hint" = "All line status";
 
 
