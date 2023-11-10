@@ -43,7 +43,7 @@ This app provides real-time information about the status of London tube lines, i
 
     ```bash
     $ git clone [https://github.com/yourusername/tube-line-status.git](https://github.com/sarathkumarsankar/TfL-App.git)
-    $ cd TfLApp
+    $ cd TfL-App
     ```
 
 2. Open the Xcode project:
@@ -67,7 +67,7 @@ Once you have obtained your API key, follow one of the methods below to configur
 #### Method 1: Directly in Config.plist
 
 1. Open the project in Xcode.
-2. Navigate to the `TfLApp/Config.plist` file.
+2. Navigate to the `TfLApp/Supporting Files/Config.plist` file.
 3. Find the key-value pair: `API_KEY: {YOUR_API_KEY_HERE}`.
 4. Replace `YOUR_API_KEY_HERE` with the actual API key obtained.
 
