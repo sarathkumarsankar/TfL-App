@@ -6,8 +6,6 @@ final class TubeLineStatusViewController: UITableViewController {
     
     private enum AccessibilityIdentifier {
         static let tableViewIdentifier = "TubeLineStatusTableView"
-        static let nameLabel = "nameLabel"
-        static let statusLabel = "statusLabel"
     }
 
     init(viewModel: TubeLineStatusViewModel) {
@@ -102,6 +100,6 @@ extension TubeLineStatusViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerCell: AllLineStatusCell = tableView.dequeueReusableCellWithDefaultIdentifier()
         headerCell.contentView.backgroundColor = .white
-        return headerCell.contentView
+        return headerCell
     }
 }

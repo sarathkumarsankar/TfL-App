@@ -13,7 +13,6 @@
 		653E3D422AFD19A500B6EC72 /* TubeLineModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D402AFD19A400B6EC72 /* TubeLineModelTests.swift */; };
 		653E3D432AFD19A500B6EC72 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D412AFD19A400B6EC72 /* MockAPIManager.swift */; };
 		653E3D452AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D442AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift */; };
-		653E3D4D2AFD19D100B6EC72 /* TfLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */; };
 		653E3D4F2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */; };
 		653E3D562AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */; };
 		653E3D582AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */; };
@@ -23,6 +22,7 @@
 		653E3D6D2AFD662100B6EC72 /* TubeLineStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D6C2AFD662100B6EC72 /* TubeLineStatusCell.swift */; };
 		653E3D6F2AFD7C6A00B6EC72 /* AllLineStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D6E2AFD7C6A00B6EC72 /* AllLineStatusCell.swift */; };
 		653E3D712AFE470900B6EC72 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D702AFE470900B6EC72 /* KeychainService.swift */; };
+		653E3D732AFE70BD00B6EC72 /* AllLineStatusCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D722AFE70BD00B6EC72 /* AllLineStatusCellUITests.swift */; };
 		6561B4B52AFAD85600D70FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B4B42AFAD85600D70FB5 /* AppDelegate.swift */; };
 		6561B4BE2AFAD85700D70FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6561B4BD2AFAD85700D70FB5 /* Assets.xcassets */; };
 		6561B4C12AFAD85700D70FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6561B4BF2AFAD85700D70FB5 /* LaunchScreen.storyboard */; };
@@ -65,7 +65,6 @@
 		653E3D412AFD19A400B6EC72 /* MockAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
 		653E3D442AFD19B600B6EC72 /* TubeLineStatusViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModelTests.swift; sourceTree = "<group>"; };
 		653E3D4A2AFD19D000B6EC72 /* TfLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITests.swift; sourceTree = "<group>"; };
 		653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TfLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewControllerUITests.swift; sourceTree = "<group>"; };
 		653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusCellUITests.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		653E3D6C2AFD662100B6EC72 /* TubeLineStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusCell.swift; sourceTree = "<group>"; };
 		653E3D6E2AFD7C6A00B6EC72 /* AllLineStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLineStatusCell.swift; sourceTree = "<group>"; };
 		653E3D702AFE470900B6EC72 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		653E3D722AFE70BD00B6EC72 /* AllLineStatusCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLineStatusCellUITests.swift; sourceTree = "<group>"; };
 		6561B4B12AFAD85600D70FB5 /* TfLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6561B4B42AFAD85600D70FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6561B4BD2AFAD85700D70FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,10 +178,10 @@
 		653E3D4B2AFD19D100B6EC72 /* TfLAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				653E3D4C2AFD19D100B6EC72 /* TfLAppUITests.swift */,
 				653E3D4E2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift */,
 				653E3D552AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift */,
 				653E3D572AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift */,
+				653E3D722AFE70BD00B6EC72 /* AllLineStatusCellUITests.swift */,
 			);
 			path = TfLAppUITests;
 			sourceTree = "<group>";
@@ -415,8 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				653E3D562AFD1CC500B6EC72 /* TubeLineStatusViewControllerUITests.swift in Sources */,
-				653E3D4D2AFD19D100B6EC72 /* TfLAppUITests.swift in Sources */,
 				653E3D4F2AFD19D100B6EC72 /* TfLAppUITestsLaunchTests.swift in Sources */,
+				653E3D732AFE70BD00B6EC72 /* AllLineStatusCellUITests.swift in Sources */,
 				653E3D582AFD208B00B6EC72 /* TubeLineStatusCellUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

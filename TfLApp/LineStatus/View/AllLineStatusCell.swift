@@ -6,10 +6,19 @@ class AllLineStatusCell: UITableViewCell {
     private enum Spacing {
         static let layoutMargins: UIEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         static let statusTextTop: CGFloat = 10
-        static let valueStackBottom: CGFloat = -10
+        static let valueStackBottom: CGFloat = -5
         static let statusTextHeight: CGFloat = 35
         static let liveImageSize: CGSize = CGSize(width: 18, height: 20)
         static let stackViewSpacing: CGFloat = 10
+    }
+
+    // Accessibility Identifiers
+
+    private enum AccessiblityIdentifier {
+        static let allLineStatusCell = "allLineStatusCellIdentifier"
+        static let statusLabel = "statusTextLabelIdentifier"
+        static let statusValueLabel = "statusValueLabelIdentifier"
+        static let liveImageView = "liveImageViewIdentifier"
     }
 
     let statusTextLbl = UILabel()
@@ -39,8 +48,14 @@ class AllLineStatusCell: UITableViewCell {
         layoutMargins = Spacing.layoutMargins
 
         // UI element setups
-        setupStatusLabel(label: statusTextLbl, font: UIFont.Heading.small, key: "status.title")
-        setupStatusLabel(label: statusValueLbl, font: UIFont.Body.smallSemiBold, key: "status.title.live")
+        setupStatusLabel(label: statusTextLbl,
+                         font: UIFont.Heading.small,
+                         key: "status.title",
+                         identifier: AccessiblityIdentifier.statusLabel)
+        setupStatusLabel(label: statusValueLbl,
+                         font: UIFont.Body.smallSemiBold,
+                         key: "status.title.live",
+                         identifier: AccessiblityIdentifier.statusValueLabel)
         setupLiveImageView()
 
         // Stack view setup
@@ -53,16 +68,19 @@ class AllLineStatusCell: UITableViewCell {
     private func configureAccessibility() {
         isAccessibilityElement = true
         statusValueLbl.accessibilityHint = LocalizedString(key: "status.accessabilty.hint")
+        self.accessibilityIdentifier = AccessiblityIdentifier.allLineStatusCell
+        liveImageView.accessibilityIdentifier = AccessiblityIdentifier.liveImageView
     }
     
     // MARK: - UI Element Setups
 
-    private func setupStatusLabel(label: UILabel, font: UIFont, key: String) {
+    private func setupStatusLabel(label: UILabel, font: UIFont, key: String, identifier: String) {
         label.font = font
         label.numberOfLines = 1
         label.adjustsFontForContentSizeCategory = true
         label.adjustsFontSizeToFitWidth = true
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.accessibilityIdentifier = identifier
         label.text = LocalizedString(key: key)
     }
 
@@ -93,7 +111,6 @@ class AllLineStatusCell: UITableViewCell {
             statusTextLbl.topAnchor.constraint(equalTo: contentView.layoutMarginsGuide.topAnchor),
             statusTextLbl.heightAnchor.constraint(equalToConstant: Spacing.statusTextHeight),
 
-            liveImageView.heightAnchor.constraint(equalToConstant: Spacing.liveImageSize.height),
             liveImageView.widthAnchor.constraint(equalToConstant: Spacing.liveImageSize.width),
 
             valueStackView.leadingAnchor.constraint(equalTo: contentView.layoutMarginsGuide.leadingAnchor),
