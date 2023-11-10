@@ -11,9 +11,10 @@ This app provides real-time information about the status of London tube lines, i
 - [Configuration](#configuration)
   - [Obtaining API Key](#obtaining-api-key)
   - [Configuring API Key](#configuring-api-key)
+  - [KeychainService Usage](#keychainservice-usage)
 - [Running the App](#running-the-app)
 - [Running Tests](#running-tests)
-- [Acknowledgements](#acknowledgements)
+- [Additional information](#acknowledgements)
 
 ## Features
 
@@ -54,16 +55,36 @@ To fetch tube line status data, you need an API key from [Tube Line Status API P
 
 ### Configuring API Key
 
+Once you have obtained your API key, follow one of the methods below to configure it in the app:
+
+#### Method 1: Directly in Config.plist
+
 1. Open the project in Xcode.
-2. Navigate to `TfLApp/Config.plist`.
+2. Navigate to the `TfLApp/Config.plist` file.
 3. Find the key-value pair: `API_KEY: {YOUR_API_KEY_HERE}`.
 4. Replace `YOUR_API_KEY_HERE` with the actual API key obtained.
 
-OR
+#### Method 2: Using Xcode Scheme Environment Variable
 
 1. Open your Xcode project.
-2. Select the Scheme.
-3. Edit the Scheme and configure the API_KEY environment variable.
+2. Select the Scheme you use for running the app (e.g., TfLApp).
+3. Click on "Edit Scheme..." at the bottom of the scheme dropdown.
+4. In the scheme editor, select the "Run" phase from the left sidebar.
+5. Click on the "Arguments" tab.
+6. Under the "Environment Variables" section, click the "+" button to add a new environment variable.
+7. Set the name as `API_KEY` and provide the actual API key value in the value field.
+
+#### KeychainService Usage
+
+For enhanced security, this app utilizes KeychainService to securely store the API key. KeychainService ensures that sensitive information like API keys is stored in a secure manner on the user's device.
+
+When you run the app for the first time after configuring your API key, the app automatically stores the API key securely in the KeychainService. You don't need to perform any manual steps for this process.
+
+The app retrieves the API key from the KeychainService whenever it needs to make requests to the Tube Line Status API. This retrieval process is seamless and ensures that your API key is never exposed or stored in an insecure manner on the device.
+
+The KeychainService can be extended for storing other sensitive information securely in the future. If the app requires additional secure storage, consider leveraging the existing KeychainService implementation for a consistent and secure approach.
+
+**Note:** The API key stored in the KeychainService is encrypted and can only be accessed by the app on the user's device. It provides an added layer of security for handling sensitive information.
 
 ## Running the App
 
@@ -75,11 +96,24 @@ Open `TfLApp.xcodeproj` in Xcode:
 
 - Choose the target for unit tests (`TfLAppTests`) from the target selection dropdown.
 - Press `Cmd + U` or navigate to "Product > Test" to run the unit tests.
+It Verify the ViewModel's interaction with the API manager and its ability to handle data decoding. This test ensures that the ViewModel correctly triggers the API call and processes the result.
 
-## Acknowledgements
+For UI tests:
 
-- MVVM architecture
-- Localization for enhanced user experience
-- Accessibility features for broader user reach
-- Unit tests and UI tests for robust code coverage
-- Utilities and Extension folders for code organization
+- Choose the target for UI tests (`TfLAppUITests`) from the target selection dropdown.
+- Press `Cmd + U` or navigate to "Product > Test" to run the UI tests.
+
+Ensure that the simulator or physical device is selected to run the UI tests on the intended platform.
+
+## Additional information
+
+- **MVVM Architecture:** The app follows the Model-View-ViewModel (MVVM) architectural pattern, promoting a separation of concerns and maintainability in the codebase.
+- **Localization:** To enhance the user experience, the app includes localization features, making it adaptable for users from different language backgrounds.
+- **Accessibility Features:** The app is designed with accessibility in mind, supporting features such as text scaling and voice-over. This ensures a broader reach and inclusivity for users with varying needs.
+- **Utilities and Extension Folders:** The project structure includes utility classes and extension folders. These provide a systematic organization for common, reusable functions and extensions, contributing to a modular and maintainable codebase.
+- **Default Colors:** In cases where specific colors for tube lines are not provided, the app defaults to using a blue color scheme.
+- **External Fonts:** The app utilizes fonts downloaded from the internet. Consider replacing them with custom fonts as needed for your design requirements.
+- **Design Inspiration:** The app's design is inspired by the existing TFL Go app, providing a familiar and user-friendly interface for users accustomed to the official Transport for London apps.
+- **API Key Configuration Flexibility:** The README outlines two methods for configuring the API key: directly in the `Config.plist` file or using Xcode Scheme Environment Variables. This flexibility accommodates different preferences and workflows.
+  **Comments:** The codebase is well-documented with comments, providing insights into the purpose and usage of important functions, properties, and classes.
+- **App Icon:** An app icon, downloaded from the internet, is included. Feel free to replace it with a custom icon that suits your branding.
