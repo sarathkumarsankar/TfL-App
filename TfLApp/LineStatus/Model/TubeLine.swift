@@ -1,5 +1,6 @@
 import Foundation
 
+// Decoding all the possible data though it is not used
 struct TubeLine: Codable {
     let id: String
     let name: String

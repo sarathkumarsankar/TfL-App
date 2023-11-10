@@ -132,7 +132,7 @@
 			children = (
 				653E3D2C2AFD07DA00B6EC72 /* ViewModel */,
 				653E3D2A2AFD071800B6EC72 /* View */,
-				6561B4E92AFADE8E00D70FB5 /* Models */,
+				6561B4E92AFADE8E00D70FB5 /* Model */,
 			);
 			path = LineStatus;
 			sourceTree = "<group>";
@@ -251,12 +251,12 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		6561B4E92AFADE8E00D70FB5 /* Models */ = {
+		6561B4E92AFADE8E00D70FB5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				6561B4EA2AFADEA200D70FB5 /* TubeLine.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6561B5032AFBF43100D70FB5 /* Extensions */ = {
