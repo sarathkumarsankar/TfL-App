@@ -5,6 +5,7 @@ This app provides real-time information about the status of London tube lines, i
 ## Table of Contents
 
 - [Features](#features)
+- [Assumptions](#assumptions)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -23,6 +24,12 @@ This app provides real-time information about the status of London tube lines, i
 - **User-friendly UI:** Clean and intuitive interface for a seamless user experience.
 - **Accessibility:** Supports text scaling, voice-over, and other accessibility features.
 - **Testing:** Includes both unit tests and UI tests for robust code coverage.
+
+## Assumptions
+
+1. **Tube Line Status API:** The app assumes that the "tube/status" API endpoint provides live data for all tube lines. Consequently, the status is hardcoded as "Live" in the table view header, reflecting the real-time nature of the information.
+
+2. **Design Inspiration:** The design of this app is inspired by the existing TFL Go app. This decision was made to offer users a familiar and user-friendly interface, particularly for those accustomed to using official Transport for London apps.
 
 ## Getting Started
 
